@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <Container>
-        <Logo />
+        <Logo boxOn />
         <Nav />
       </Container>
     </header>

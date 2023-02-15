@@ -1,11 +1,14 @@
+import Container from 'components/container'
 import Logo from 'components/logo'
 import Nav from 'components/nav'
 
 const Header = () => {
   return (
     <header>
-      <Logo />
-      <Nav />
+      <Container>
+        <Logo />
+        <Nav />
+      </Container>
     </header>
   )
 }

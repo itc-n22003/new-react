@@ -1,7 +1,15 @@
+import Container from 'components/container'
 import Logo from 'components/logo'
+import Social from 'components/social'
 
 const Footer = () => {
   return (
-    <footer><Logo></Logo></footer>)
+    <Container>
+      <footer>
+        <Logo />
+        <Social />
+      </footer>
+    </Container>
+  )
 }
 export default Footer

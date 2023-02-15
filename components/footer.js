@@ -1,11 +1,13 @@
 import Container from 'components/container'
 import Logo from 'components/logo'
+import Social from 'components/social'
 
 const Footer = () => {
   return (
     <Container>
-      <footer><Logo />
-        [social]
+      <footer>
+        <Logo />
+        <Social />
       </footer>
     </Container>
   )

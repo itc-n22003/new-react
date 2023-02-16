@@ -1,9 +1,10 @@
 import Social from 'components/social'
+import styles from 'styles/contact.module.css'
 
 const Contact = () => {
   return (
-    <div>
-      <h3>Contact</h3>
+    <div className={styles.stack}>
+      <h3 className={styles.heading}>Contact</h3>
       <Social />
       <addredd>cube@web.mail.address</addredd>
     </div>

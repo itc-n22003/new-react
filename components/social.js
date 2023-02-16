@@ -4,10 +4,11 @@ import {
   faFacebookF,
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
+import styles from 'styles/social.module.css'
 
 const Social = () => {
   return (
-    <ul>
+    <ul className={styles.list}>
       <li>
         <a href='https://twitter.com/'>
           <FontAwesomeIcon icon={faTwitter} />

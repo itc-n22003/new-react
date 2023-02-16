@@ -11,10 +11,13 @@ const About = () => {
   return (
     <>
       <Container>
-        <Meta pageTitle='アバウト' />
+        <Meta pageTitle='アバウト' pageDes='About development activities' />
         <Hero
           title='About'
           subtitle='About development activities'
+          pageImg={eyecatch.src}
+          pageImgW={eyecatch.width}
+          pageImgH={eyecatch.height}
         />
 
         <figure>

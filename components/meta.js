@@ -6,16 +6,10 @@ import { siteMeta } from 'lib/constants'
 
 // 汎用OGP画像
 import siteImg from 'images/ogp.jpg'
-const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } =
-  siteMeta
 
-export default function Meta ({
-  pageTitle,
-  pageDesc,
-  pageImg,
-  pageImgW,
-  pageImgH
-}) {
+const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMeta
+
+const Meta = ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) => {
   // ページのタイトル
   const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
 
@@ -57,3 +51,4 @@ export default function Meta ({
     </Head>
   )
 }
+export default Meta

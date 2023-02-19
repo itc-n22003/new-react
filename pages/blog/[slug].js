@@ -30,6 +30,7 @@ const Post = ({ title, publish, content, eyecatch, categories, description, prev
 
         <figure>
           <Image
+            key={eyecatch.url}
             src={eyecatch.url}
             alt=''
             layout='responsive'
